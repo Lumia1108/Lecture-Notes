@@ -1,0 +1,5 @@
+print('온도 변환 프로그램')
+temperature = int(input('화씨 온도를 입력하세요: '))
+print('섭씨 온도는 %.1f 입니다.' % ((temperature - 32) * (5 / 9)))
+temperature = int(input('섭씨 온도를 입력하세요: '))
+print('화씨 온도는 %.1f 입니다.' % (temperature * (9 / 5) + 32))
